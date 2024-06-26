@@ -3,9 +3,9 @@ This Code Reversed a String
 --------------------------*/
 
 const value="Revers Me";
-let reversesedvalue="";
+let reversedvalue="";
 
 value.split("").forEach((char)=>{
-    reversesedvalue=char+reversesedvalue;
+    reversedvalue=char+reversedvalue;
 });
-console.log(reversesedvalue);
+console.log(reversedvalue);
